@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <title>Get Answer</title>
+  <style>
+    body {
+      width: 200px;
+      height: 100px;
+      font-family: Arial, sans-serif;
+      text-align: start;
+      background-color: #2e2e2e;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container py-8 px-4 bg-gray-900">
+    <button id="get-jawaban" class="w-full text-green-300 bg-gray-700 p-4 rounded-xl">Get Answer</button>
+    <hr class="my-3">
+    <p class="mb-1">Question : </p>
+    <div id="question-container">
+    </div>
+    <p class="mb-1">Option : </p>
+    <ul id="radio-labels-list"></ul>
+    <div id="answer-container">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
